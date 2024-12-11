@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" type="image/png" href="/proyecto-final/assets/img/favicon.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/proyecto-final/css/global.css"> 
+		<title>Tor</title>
+	</head>
+	<body>
+		<header class="header">
+			<a id="logo-container" href="/proyecto-final/">
+				<h2 id="nombre-pag">Vendetta</h2>
+				<div id="frase"><i>"Who watch the watchmen?"</i></div>
+			</a>	
+			<nav id="apartados">
+				<a href="/proyecto-final/latinoamerica/index.html" id="Latinoamerica">Latinoamérica</a>
+				<a href="/proyecto-final/Grupos-conocidos/index.html" id="Grupos conocidos">Grupos conocidos </a>
+				<a href="/proyecto-final/tor/index.html" id="Tor">Tor </a>
+				<a href="/proyecto-final/anonymous/index.html" id="Anonymous">Anonymous </a>
+				<a href="/proyecto-final/codigo-linux/index.html" id="Código Linux">Código Linux </a>	
+				<a href="/proyecto-final/acerca/index.html" id="acerca">Acerca</a>
+			</nav>	
+<div class="search-box">		
+
+<script src="/proyecto-final/pagefind/pagefind-ui.js"></script>
+<link ref="styleshet" href="/proyecto-final/css/search.css">
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>   
+</div>			
+</header>
+<main>
+			<article>
+				<div class="texto">
+				
+				<h3>Tor: El Navegador de la Privacidad y el Anonimato</h3>
+<p>En la era de la conectividad global, donde el seguimiento de actividades en línea y la vigilancia masiva son prácticas comunes, Tor emerge como una herramienta esencial para proteger la privacidad y garantizar el anonimato en internet. Este navegador, cuya popularidad ha crecido en los últimos años, no solo es un medio para explorar la web de manera más segura, sino también un símbolo de resistencia contra la censura y las restricciones digitales. A continuación, exploraremos qué es Tor, cómo funciona y su impacto en el panorama digital.</p>
+<hr>
+<h4>¿Qué es Tor?</h4>
+<p>Tor, acrónimo de <strong>The Onion Router</strong>, es un software gratuito y de código abierto diseñado para permitir la navegación anónima en internet. Fue desarrollado inicialmente por el Laboratorio de Investigación Naval de los Estados Unidos a mediados de la década de 1990 como una herramienta para proteger las comunicaciones gubernamentales sensibles. En 2002, el proyecto fue lanzado al público, y en 2006 se formó la organización sin fines de lucro <strong>The Tor Project</strong>, que actualmente gestiona su desarrollo.</p>
+<p>La característica principal de Tor es su capacidad para ocultar la identidad del usuario y su actividad en línea mediante el uso de una red global de servidores administrados por voluntarios. Esta red redirige el tráfico de internet a través de múltiples nodos, encriptando los datos en cada etapa, lo que dificulta el rastreo de la actividad.</p>
+<hr>
+<h4>¿Cómo funciona Tor?</h4>
+<p>El funcionamiento de Tor se basa en el concepto de enrutamiento en capas, de donde proviene su nombre. Cuando un usuario accede a un sitio web a través de Tor, su solicitud no se envía directamente al servidor del destino, sino que pasa por varios nodos o relays dentro de la red Tor. Este proceso incluye tres tipos principales de nodos:</p>
+<ol>
+<li><strong>Nodo de entrada:</strong> el punto inicial donde la conexión del usuario entra a la red Tor. Aquí se cifra la primera capa de datos.</li>
+<li><strong>Nodo intermedio:</strong> el nodo que actúa como puente entre el nodo de entrada y el de salida. Aumenta la seguridad al desviar el tráfico entre varios servidores.</li>
+<li><strong>Nodo de salida:</strong> el punto final que envía la solicitud al servidor de destino. Aunque este nodo puede ver el destino final de la solicitud, no puede identificar al usuario original debido al encriptado múltiple.</li>
+</ol>
+<p>Este proceso crea un efecto de &quot;capa de cebolla&quot; (de ahí el logo de Tor), donde cada capa encripta los datos antes de que lleguen al siguiente nodo. Este diseño hace extremadamente difícil para cualquier observador externo rastrear el origen del tráfico.</p>
+<hr>
+<h4>Usos principales de Tor</h4>
+<p>Tor se utiliza para una amplia variedad de propósitos, que van desde el legítimo hasta el cuestionable. Algunos de sus usos principales incluyen:</p>
+<ol>
+<li><strong>Privacidad personal:</strong> Muchas personas utilizan Tor para proteger su identidad en línea y evitar el rastreo por parte de anunciantes, gobiernos o ciberdelincuentes.</li>
+<li><strong>Acceso a contenido restringido:</strong> En países con censura en internet, Tor permite el acceso a sitios web bloqueados y evita la vigilancia estatal.</li>
+<li><strong>Comunicación segura:</strong> Activistas, periodistas y denunciantes de irregularidades utilizan Tor para comunicarse de manera anónima, evitando represalias.</li>
+<li><strong>Exploración de la Dark Web:</strong> Tor es conocido por ser la puerta de entrada a la Dark Web, una parte de internet que no está indexada por los motores de búsqueda convencionales. Aunque esta área se asocia a menudo con actividades ilícitas, también alberga foros y servicios legítimos.</li>
+</ol>
+<hr>
+<h4>Beneficios y limitaciones de Tor</h4>
+<h5><strong>Beneficios</strong></h5>
+<ol>
+<li><strong>Anonimato:</strong> Al ocultar la dirección IP del usuario y encriptar los datos, Tor proporciona un alto nivel de anonimato.</li>
+<li><strong>Acceso sin restricciones:</strong> Tor permite a los usuarios superar las barreras de censura impuestas por gobiernos u organizaciones.</li>
+<li><strong>Gratuidad y código abierto:</strong> Cualquiera puede usar Tor sin costo y verificar su código fuente para garantizar su seguridad.</li>
+</ol>
+<h5><strong>Limitaciones</strong></h5>
+<ol>
+<li><strong>Velocidad:</strong> Debido al enrutamiento a través de múltiples nodos, la velocidad de navegación en Tor es significativamente más lenta que la de los navegadores tradicionales.</li>
+<li><strong>Riesgos en el nodo de salida:</strong> Aunque Tor cifra el tráfico dentro de su red, los datos que salen del nodo de salida no están encriptados. Esto significa que la información sensible puede ser interceptada si no se utiliza HTTPS.</li>
+<li><strong>Asociación con actividades ilícitas:</strong> Tor tiene una reputación negativa debido a su uso en actividades ilegales, lo que ha llevado a una percepción pública que a veces ignora sus beneficios legítimos.</li>
+</ol>
+<hr>
+<h4>Tor y la privacidad en el mundo moderno</h4>
+<p>El uso de Tor plantea preguntas importantes sobre el equilibrio entre privacidad y seguridad. En un mundo donde las empresas y los gobiernos recopilan grandes cantidades de datos personales, herramientas como Tor son esenciales para proteger la libertad individual. Sin embargo, su capacidad para ocultar actividades también ha llevado a un uso indebido por parte de criminales, lo que ha generado un debate continuo sobre cómo regular su uso sin comprometer la privacidad de los usuarios legítimos.</p>
+<hr>
+<h4>Futuro de Tor</h4>
+<p>A medida que las amenazas a la privacidad y la libertad en internet continúan evolucionando, el Proyecto Tor también trabaja en mejorar su tecnología. Entre las innovaciones en desarrollo se incluyen métodos más avanzados de encriptación, mejoras en la velocidad de navegación y una integración más amplia con herramientas de privacidad como VPNs. Además, organizaciones de derechos digitales siguen apoyando el desarrollo de Tor como una herramienta para garantizar un internet libre y abierto.</p>
+<hr>
+<h4>Conclusión</h4>
+<p>Tor es mucho más que un navegador; es un símbolo de resistencia contra la vigilancia y la censura. Aunque no está exento de controversias, su impacto en la protección de la privacidad y el acceso a la información es innegable. En un mundo donde la privacidad está cada vez más amenazada, herramientas como Tor son esenciales para garantizar que la red siga siendo un espacio libre y accesible para todos.</p>
+ 
+				</div>
+			</article>
+		</main>
+	
+
+	</body>
+</html>
+

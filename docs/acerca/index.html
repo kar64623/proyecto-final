@@ -1,39 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Acerca</title>
-  <meta name="description" content="Meta descripción de la página de acerca">
-  <link rel="icon" href="/starter-project-eleventy-github-pages/img/favicon.png">
-  <link rel="stylesheet" href="/starter-project-eleventy-github-pages/css/styles.css">
-</head>
-<body>
-  <header>
-    <h2>Mi sitio con <i>11ty</i></h2>
-    <nav class="menu">
-  <ul>
-    <li><a href="/starter-project-eleventy-github-pages/">Inicio</a></li>
-    <li><a href="/starter-project-eleventy-github-pages/acerca">Acerca</a></li>
-    <li><a href="/starter-project-eleventy-github-pages/contacto">Contacto</a></li>
-    <li><a href="/starter-project-eleventy-github-pages/blog">Blog</a></li>
-  </ul>
-</nav>
-    <img src="/starter-project-eleventy-github-pages/img/eleventy.avif" alt="Mascota 11ty">
-  </header>
-  <main>
-    
-<h1>Página de Acerca</h1>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consectetur doloribus esse fugit modi quos in at harum quidem, quas tempora iusto laboriosam, praesentium repellat pariatur sint mollitia quasi molestias.
-</p>
-<img src="/starter-project-eleventy-github-pages/img/eleventy-mascots.avif" alt="Mascotas Eleventy">
-  </main>
-  <hr>
-<footer>
-  🎈🦡 <small>Sitio hecho con <a href="https://www.11ty.dev/" target="_blank"><b><i>11ty</i></b></a></small> 🦡🎈
-</footer>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" type="image/png" href="/proyecto-final/assets/img/favicon.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/proyecto-final/css/global.css"> 
+		<title>Acerca</title>
+	</head>
+	<body>
+		<header class="header">
+			<a id="logo-container" href="/proyecto-final/">
+				<h2 id="nombre-pag">Vendetta</h2>
+				<div id="frase"><i>"Who watch the watchmen?"</i></div>
+			</a>	
+			<nav id="apartados">
+				<a href="/proyecto-final/latinoamerica/index.html" id="Latinoamerica">Latinoamérica</a>
+				<a href="/proyecto-final/Grupos-conocidos/index.html" id="Grupos conocidos">Grupos conocidos </a>
+				<a href="/proyecto-final/tor/index.html" id="Tor">Tor </a>
+				<a href="/proyecto-final/anonymous/index.html" id="Anonymous">Anonymous </a>
+				<a href="/proyecto-final/codigo-linux/index.html" id="Código Linux">Código Linux </a>	
+				<a href="/proyecto-final/acerca/index.html" id="acerca">Acerca</a>
+			</nav>	
+<div class="search-box">		
 
-  <script src="/starter-project-eleventy-github-pages/js/main.js" type="module"></script>
-</body>
+<script src="/proyecto-final/pagefind/pagefind-ui.js"></script>
+<link ref="styleshet" href="/proyecto-final/css/search.css">
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>   
+</div>			
+</header>
+<main>
+			<article>
+				<div class="texto">
+				
+				<h2>Cómo Contribuir</h2>
+<p>Si tienes interés en colaborar con este proyecto, puedes contribuir de las siguientes maneras:</p>
+<ol>
+<li><strong>Sugerencias de contenido:</strong> Escríbenos con ideas o temas que consideres importantes.</li>
+<li><strong>Corrección de errores:</strong> Ayúdanos a mejorar reportando errores o inconsistencias.</li>
+<li><strong>Colaboración directa:</strong> Si deseas unirte al equipo, contáctanos por los medios abajo mencionados.</li>
+</ol>
+<h2>Contacto</h2>
+<p>Si tienes preguntas, sugerencias o deseas colaborar, puedes contactarnos a través de los siguientes medios:</p>
+<ul>
+<li><strong>Correo electrónico:</strong> <a href="mailto:cdmx3099@amerike.edu.mx">cdmx3099@amerike.edu.mx</a></li>
+<li><strong>GitHub:</strong> <a href="https://github.com/kar64623/proyecto-final">Repositorio del Proyecto</a></li>
+</ul>
+<hr>
+<p>¡Gracias por visitar esta wiki y ser parte de nuestra comunidad!</p>
+ 
+				</div>
+			</article>
+		</main>
+	
+
+	</body>
 </html>
+

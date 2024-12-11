@@ -8,17 +8,21 @@
     "start": "npx @11ty/eleventy --serve --port=7777",
     "clean": "rm -rf docs",
     "deploy": "npx @11ty/eleventy --pathprefix=/",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/subdirectory/"
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/subdirectory/ && npx pagefind --source=docs"
   },
   "keywords": [
     "11ty",
     "eleventy",
-    "github pages",
-    "jonmircha"
+    "github pages"
   ],
-  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "author": "Karim",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "pagefind": "^1.2.0"
+  },
+  "dependencies": {
+    "liquidjs": "^10.19.0"
+  
   }
 }

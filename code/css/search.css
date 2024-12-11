@@ -1,0 +1,22 @@
+.search-box {
+	position: absolute;
+	display: absolute;
+	left: 16px;
+	top: 89px;
+	color: white;
+	background-color: none;
+}
+
+.search {
+	background-color: red;
+}
+
+
+.search-box li {
+	color: black;
+	background-color: none;
+}
+
+li:hover {
+	background-color: none;
+}
